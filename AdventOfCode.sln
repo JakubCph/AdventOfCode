@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventOfCode", "AdventOfCode\AdventOfCode.csproj", "{C90DEFFB-7A63-402C-B02D-A318B9DCB48D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronalCalibration", "AdventOfCode\ChronalCalibration.csproj", "{C90DEFFB-7A63-402C-B02D-A318B9DCB48D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solutions", "Solutions", "{46BAAB47-5382-4893-9C1C-ADFD1E40E6B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D76841FB-07E0-4BCF-AFE6-F944EC5D9EF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChronalCalibration.Tests", "ChronalCalibration.Tests\ChronalCalibration.Tests.csproj", "{BB642FE6-CC42-47BC-87A2-0B09A7343DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{C90DEFFB-7A63-402C-B02D-A318B9DCB48D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C90DEFFB-7A63-402C-B02D-A318B9DCB48D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C90DEFFB-7A63-402C-B02D-A318B9DCB48D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB642FE6-CC42-47BC-87A2-0B09A7343DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB642FE6-CC42-47BC-87A2-0B09A7343DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB642FE6-CC42-47BC-87A2-0B09A7343DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB642FE6-CC42-47BC-87A2-0B09A7343DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C90DEFFB-7A63-402C-B02D-A318B9DCB48D} = {46BAAB47-5382-4893-9C1C-ADFD1E40E6B3}
+		{BB642FE6-CC42-47BC-87A2-0B09A7343DB2} = {D76841FB-07E0-4BCF-AFE6-F944EC5D9EF7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB867981-EB81-4852-9AF6-F8AD5C900A99}
